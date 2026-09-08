@@ -9,7 +9,7 @@ class LoginPage:
 
         # --- Element-Lokatoren ---
         self.Profile_icon = (By.XPATH,"//div[@class='headerIcon']")
-        self.username_input = (By.XPATH, "//input[@type='email']")
+        self.username_input = (By.XPATH, "//input[@type='email' or placehoder = 'Email Address']")
         self.password_input = (By.XPATH, "//input[@type='password']")
         self.login_button = (By.XPATH, "//button[@type='submit' and text()='Sign In']")
         self.shop_button = (By.XPATH, "//a[text()='Shop']")
